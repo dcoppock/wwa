@@ -1,0 +1,91 @@
+/**
+ * Sheet : main.css
+ * Author: Sander van Zoest <sander@ipinc.com>
+ *         Internet Products, Inc.
+ *
+ * Cascading Style Sheet, level 1  
+ * for more info see http://www.w3.org/pub/WWW/TR/REC-CSS1
+**/
+
+BODY {
+   font-family: verdana, helvetica, sans-serif;
+   margin-left: 4%;
+   margin-right: 4%;
+   color: #4e3d8c; 		/* IPInc Purple */
+   / *background: #CCFFFF; */
+   background: white;
+}
+
+a:hover {color: blue;}
+
+A:link { 
+   color: purple; 	
+   font-style: normal;
+   font-weight: bolder;
+   text-decoration: none;
+}
+
+A:visited { 
+   color: green; 	
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+}
+
+A:active { 
+   color: orange;
+   font-weight: bold;
+   font-style: oblique;
+}
+
+A.footerlinks:link { 
+   color: cyan;
+   font-weight: bold;
+   font-style: oblique;
+}
+
+A.footerlinks:visited { 
+   color: cyan;
+   font-weight: bold;
+   font-style: oblique;
+}
+
+A.footerlinks:active { 
+   color: #ff0000;
+   font-weight: bold;
+   font-style: oblique;
+}
+
+HR {
+   height: 3;
+   color: black;
+}   
+
+IMG {
+   border: 0;
+}
+
+H1, H2 {
+   font-family: verdana, helvetica, sans-serif;
+   margin-left: +1%;
+   color: blue;
+}
+
+.hide {
+   display: none;
+   color: white;
+}
+
+#tight {
+  padding: 0;
+  border: 0;
+}
+
+BLOCKQUOTE { 
+   color: red; 	
+   font-family: verdana, helvetica, sans-serif;
+   font-style: normal;
+   font-weight: bolder;
+   text-decoration: none;
+}
+
